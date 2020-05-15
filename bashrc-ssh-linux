@@ -1,0 +1,12 @@
+## need to set profiles in gnome-terminal >> prefrences GUI
+sshc() {
+    HOST=`echo $1 | cut -d'@' -f2`
+
+    case $HOST in
+        teh-1-undercloud | teh-2-undercloud  )  PROFILE="Red" ;;
+        ts-1-undercloud  | office-1-undercloud )        PROFILE="Green" ;;
+        *)           PROFILE="Blue" ;;
+    esac
+
+    gnome-terminal --window-with-profile=$PROFILE -x bash -c "ssh -F $HOME/snapp/cred/config -i $HOME/snapp/cred/snapp.pem $1";
+}
