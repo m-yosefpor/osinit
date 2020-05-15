@@ -25,16 +25,8 @@ cd fonts
 # Open ITerm2 > Preferences > Profiles > Text > Change Font and set it to something that has “for Powerline”. I’m choosing “Meslo LG DZ for Powerline” font.
 #### (iterm2 schema)
 curl https://github.com/mbadolato/iTerm2-Color-Schemes/tarball/master | tar ...
-# Open iTerm2 > Preferences > Profile > Colors > Color Presets > Import. In the import window, navigate to the “Schemes” folder (Argonaut is good)
+# Open iTerm2 > Preferences > Profile > Colors > Color Presets > Import. In the import window, navigate to the “Schemes” folder (osinit/color-schema)
 # change background color for "staging" and "production" profiles for ssh
 #### (iterm2 alt key)
 # use option as meta key #iterm > preferences  >  profile > use option as Esc+
-############################### (zsh)
-#### (latest zsh)
-brew install zsh
-chsh -s /usr/local/bin/zsh
-#### (oh-my-zsh)
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-#### (zshrc)
-echo 'source ~/hi/cli/shell/zsh/zshrc' > ~/.zshrc
 ###############################
