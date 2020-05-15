@@ -29,7 +29,7 @@ curl https://github.com/mbadolato/iTerm2-Color-Schemes/tarball/master | tar ...
 # change background color for "staging" and "production" profiles for ssh
 #### (iterm2 alt key)
 # use option as meta key #iterm > preferences  >  profile > use option as Esc+
-###############################
+############################### (zsh)
 #### (latest zsh)
 brew install zsh
 chsh -s /usr/local/bin/zsh
