@@ -30,3 +30,7 @@ curl https://github.com/mbadolato/iTerm2-Color-Schemes/tarball/master | tar ...
 #### (iterm2 alt key)
 # use option as meta key #iterm > preferences  >  profile > use option as Esc+
 ###############################
+
+
+perefrences keyboard shortcut check input source ctrl+space
+keyboard setting "perisian-standard" not "persian"

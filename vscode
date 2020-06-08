@@ -1,0 +1,11 @@
+plugins:
+	vim
+	Terraform: Mikael Olenfalk (.tf , .tfvars)
+	ansible
+	Docker: Microsoft  (Dockerfile)
+	Kubernetes
+
+	git history
+
+
+vimrs for vscode
