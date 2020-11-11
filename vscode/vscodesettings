@@ -1,0 +1,14 @@
+{
+    "git.confirmSync": false,
+    "git.autofetch": true,
+    "vs-kubernetes": {
+        "vs-kubernetes.helm-path.mac": "/Users/mohammadyosefpor/.vs-kubernetes/tools/helm/darwin-amd64/helm",
+        "vs-kubernetes.draft-path.mac": "/Users/mohammadyosefpor/.vs-kubernetes/tools/draft/darwin-amd64/draft"
+    },
+    "terminal.integrated.shell.osx": "/bin/zsh",
+    "git.enableCommitSigning": true,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "editor.acceptSuggestionOnEnter": false,       
+    "editor.autoClosingQuotes": "never",
+    "go.useLanguageServer": true
+}

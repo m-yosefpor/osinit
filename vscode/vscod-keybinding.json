@@ -1,0 +1,21 @@
+[{
+    "key": "alt+j",
+    "command": "workbench.action.terminal.focus"
+},
+{
+    "key": "alt+k",
+    "command": "workbench.action.focusActiveEditorGroup",
+},
+{
+    "key": "alt+f",
+    "command": "workbench.view.search",
+},
+{
+    "key": "alt+e",
+    "command": "workbench.view.explorer"
+},
+{
+    "key": "alt+g",
+    "command": "workbench.view.scm"
+}
+]
