@@ -1,0 +1,295 @@
+<string>(\r|^)c </string>
+<string>mkdir -p </string>
+<key>SimulateDeletes</key>
+
+<string>(\r|^)mk </string>
+
+<string>grep -r </string>
+
+<key>SimulateDeletes</key>
+
+<string>(\r|^)g </string>
+
+<string>| grep </string>
+
+<key>SimulateDeletes</key>
+
+<string>\|g </string>
+
+<string>ack </string>
+
+<key>SimulateDeletes</key>
+
+<string>(\r|^)a </string>
+
+<string>fzf </string>
+
+<key>SimulateDeletes</key>
+
+<string>(\r|^)f </string>
+
+<string>sudo </string>
+
+<key>SimulateDeletes</key>
+
+<string>(\r|^)s </string>
+
+<string>sudo vi </string>
+
+<key>SimulateDeletes</key>
+
+<string>(\r|^)v </string>
+
+<string>screen -c hi/src -d -R mohammady</string>
+
+<key>SimulateDeletes</key>
+
+<string>(\r|^)scrn </string>
+
+<string>openstack </string>
+
+<key>SimulateDeletes</key>
+
+<string>(\r|^)o </string>
+
+<string>terraform </string>
+
+<key>SimulateDeletes</key>
+
+<string>(\r|^)tf </string>
+
+<string>ansible </string>
+
+<key>SimulateDeletes</key>
+
+<string>(\r|^)an </string>
+
+<string>ansible-playbook </string>
+
+<key>SimulateDeletes</key>
+
+<string>(\r|^)ap </string>
+
+<string>sudo docker </string>
+
+<key>SimulateDeletes</key>
+
+<string>(\r|^)d </string>
+
+<string>cd ../</string>
+
+<key>SimulateDeletes</key>
+
+<string>(\r|^)\.\. </string>
+
+<string>ll -ah </string>
+
+<key>SimulateDeletes</key>
+
+<string>(\r|^)ll </string>
+
+<string>screen -x </string>
+
+<key>SimulateDeletes</key>
+
+<string>(\r|^)scrnx </string>
+
+<string>oc describe </string>
+
+<key>SimulateDeletes</key>
+
+<string>(\r|^)ocd </string>
+
+<string>oc edit </string>
+
+<key>SimulateDeletes</key>
+
+<string>(\r|^)oce </string>
+
+<string>openstack server </string>
+
+<key>SimulateDeletes</key>
+
+<string>(\r|^)os </string>
+
+<string>openstack volume </string>
+
+<key>SimulateDeletes</key>
+
+<string>(\r|^)ov </string>
+
+<string>oc get </string>
+
+<key>SimulateDeletes</key>
+
+<string>(\r|^)ocg </string>
+
+<string>oc get --all-namespaces </string>
+
+<key>SimulateDeletes</key>
+
+<string>(\r|^)ocga </string>
+
+<string>openstack server list </string>
+
+<key>SimulateDeletes</key>
+
+<string>(\r|^)osl </string>
+
+<string>openstack volume list </string>
+
+<key>SimulateDeletes</key>
+
+<string>(\r|^)ovl </string>
+
+<string>git clone --depth 1 </string>
+
+<key>SimulateDeletes</key>
+
+<string>(\r|^)gcl </string>
+
+<string>oc logs </string>
+
+<key>SimulateDeletes</key>
+
+<string>(\r|^)ocl </string>
+
+<string>terraform apply </string>
+
+<key>SimulateDeletes</key>
+
+<string>(\r|^)tfa </string>
+
+<string>source </string>
+
+<key>SimulateDeletes</key>
+
+<string>(\r|^)so </string>
+
+<string>| awk '{ print $</string>
+
+<key>SimulateDeletes</key>
+
+<string>|aw </string>
+
+<string>git fetch </string>
+
+<key>SimulateDeletes</key>
+
+<string>(\r|^)gf </string>
+
+<string>git merge </string>
+
+<key>SimulateDeletes</key>
+
+<string>(\r|^)gm </string>
+
+<string>openstack server show </string>
+
+<key>SimulateDeletes</key>
+
+<string>(\r|^)oss </string>
+
+<string>watch -n </string>
+
+<key>SimulateDeletes</key>
+
+<string>(\r|^)w </string>
+
+<string>sudo docker exec -it </string>
+
+<key>SimulateDeletes</key>
+
+<string>(\r|^)dexec </string>
+
+<string>openstack network</string>
+
+<key>SimulateDeletes</key>
+
+<string>(\r|^)on </string>
+
+<string>openstack network list </string>
+
+<key>SimulateDeletes</key>
+
+<string>(\r|^)onl </string>
+
+<string>sudo systemctl </string>
+
+<key>SimulateDeletes</key>
+
+<string>(\r|^)sy </string>
+
+<string>terraform apply -target=null_resource.utility_assets </string>
+
+<key>SimulateDeletes</key>
+
+<string>(\r|^)tfnull </string>
+
+<string>sudo yum install -y </string>
+
+<key>SimulateDeletes</key>
+
+<string>(\r|^)yu </string>
+
+<string>oc get po -o wide | grep </string>
+
+<key>SimulateDeletes</key>
+
+<string>(\r|^)ocgp </string>
+
+<string>oc rsh </string>
+
+<key>SimulateDeletes</key>
+
+<string>(\r|^)ocr </string>
+
+<string>openstack volume show </string>
+
+<key>SimulateDeletes</key>
+
+<string>(\r|^)ovs </string>
+
+<string>oc project </string>
+
+<key>SimulateDeletes</key>
+
+<string>(\r|^)ocp </string>
+
+<string>oc project monitoring </string>
+
+<key>SimulateDeletes</key>
+
+<string>(\r|^)ocpm </string>
+
+<string>oc project abar-internal </string>
+
+<key>SimulateDeletes</key>
+
+<string>(\r|^)ocpa </string>
+
+<string>oc project default </string>
+
+<key>SimulateDeletes</key>
+
+<string>(\r|^)ocpd </string>
+
+<string>oc rollout cancel dc/</string>
+
+<key>SimulateDeletes</key>
+
+<string>(\r|^)cancel </string>
+
+<string>oc scale dc --replicas=</string>
+
+<key>SimulateDeletes</key>
+
+<string>(\r|^)scale </string>
+
+<string>oc rollout latest dc/</string>
+
+<key>SimulateDeletes</key>
+
+<string>(\r|^)latest </string>
+
+<string>%TriggerClipboard%</string>

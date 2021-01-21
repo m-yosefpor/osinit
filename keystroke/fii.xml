@@ -1,0 +1,175 @@
+<string>(\r|^)c </string>
+<string>mkdir -p </string>
+<string>(\r|^)mk </string>
+<string>grep -r </string>
+<string>(\r|^)g </string>
+<string>| grep </string>
+<string>\|g </string>
+<string>ack </string>
+<string>(\r|^)a </string>
+<string>fzf </string>
+<string>(\r|^)f </string>
+<string>sudo </string>
+<string>(\r|^)s </string>
+<string>sudo vi </string>
+<string>(\r|^)v </string>
+<string>screen -c hi/src -d -R mohammady</string>
+<string>(\r|^)scrn </string>
+<string>openstack </string>
+<string>(\r|^)o </string>
+<string>terraform </string>
+<string>(\r|^)tf </string>
+<string>ansible </string>
+<string>(\r|^)an </string>
+<string>ansible-playbook </string>
+<string>(\r|^)ap </string>
+<string>sudo docker </string>
+<string>(\r|^)d </string>
+<string>cd ../</string>
+<string>(\r|^)\.\. </string>
+<string>ll -ah </string>
+<string>(\r|^)ll </string>
+<string>screen -x </string>
+<string>(\r|^)scrnx </string>
+<string>oc describe </string>
+<string>(\r|^)ocd </string>
+<string>oc edit </string>
+<string>(\r|^)oce </string>
+<string>openstack server </string>
+<string>(\r|^)os </string>
+<string>openstack volume </string>
+
+<string>(\r|^)ov </string>
+
+<string>oc get </string>
+
+
+<string>(\r|^)ocg </string>
+
+<string>oc get --all-namespaces </string>
+
+
+<string>(\r|^)ocga </string>
+
+<string>openstack server list </string>
+
+
+<string>(\r|^)osl </string>
+
+<string>openstack volume list </string>
+
+
+<string>(\r|^)ovl </string>
+
+<string>git clone --depth 1 </string>
+
+
+<string>(\r|^)gcl </string>
+
+<string>oc logs </string>
+
+
+<string>(\r|^)ocl </string>
+
+<string>terraform apply </string>
+
+
+<string>(\r|^)tfa </string>
+
+<string>source </string>
+
+
+<string>(\r|^)so </string>
+
+<string>| awk '{ print $</string>
+
+
+<string>|aw </string>
+
+<string>git fetch </string>
+
+
+<string>(\r|^)gf </string>
+
+<string>git merge </string>
+
+
+<string>(\r|^)gm </string>
+
+<string>openstack server show </string>
+
+
+<string>(\r|^)oss </string>
+
+<string>watch -n </string>
+
+
+<string>(\r|^)w </string>
+
+<string>sudo docker exec -it </string>
+
+
+<string>(\r|^)dexec </string>
+
+<string>openstack network</string>
+
+
+<string>(\r|^)on </string>
+
+<string>openstack network list </string>
+
+
+<string>(\r|^)onl </string>
+
+<string>sudo systemctl </string>
+
+
+<string>(\r|^)sy </string>
+
+<string>terraform apply -target=null_resource.utility_assets </string>
+
+
+<string>(\r|^)tfnull </string>
+
+<string>sudo yum install -y </string>
+
+
+<string>(\r|^)yu </string>
+
+<string>oc get po -o wide | grep </string>
+
+
+<string>(\r|^)ocgp </string>
+
+<string>oc rsh </string>
+
+
+<string>(\r|^)ocr </string>
+
+<string>openstack volume show </string>
+
+
+<string>(\r|^)ovs </string>
+
+<string>oc project </string>
+
+
+<string>(\r|^)ocp </string>
+
+<string>oc project monitoring </string>
+
+
+<string>(\r|^)ocpm </string>
+
+<string>oc project abar-internal </string>
+
+
+<string>(\r|^)ocpa </string>
+<string>oc project default </string>
+<string>(\r|^)ocpd </string>
+<string>oc rollout cancel dc/</string>
+<string>(\r|^)cancel </string>
+<string>oc scale dc --replicas=</string>
+<string>(\r|^)scale </string>
+<string>oc rollout latest dc/</string>
+<string>(\r|^)latest </string>

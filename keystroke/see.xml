@@ -1,0 +1,442 @@
+<string>(\r|^)c </string>
+<string>mkdir -p </string>
+<string>TypedString</string>
+<key>SimulateDeletes</key>
+
+<key>TypedString</key>
+<string>(\r|^)mk </string>
+
+<key>Text</key>
+<string>grep -r </string>
+
+<string>TypedString</string>
+<key>SimulateDeletes</key>
+
+<key>TypedString</key>
+<string>(\r|^)g </string>
+
+<key>Text</key>
+<string>| grep </string>
+
+<string>TypedString</string>
+<key>SimulateDeletes</key>
+
+<key>TypedString</key>
+<string>\|g </string>
+
+<key>Text</key>
+<string>ack </string>
+
+<string>TypedString</string>
+<key>SimulateDeletes</key>
+
+<key>TypedString</key>
+<string>(\r|^)a </string>
+
+<key>Text</key>
+<string>fzf </string>
+
+<string>TypedString</string>
+<key>SimulateDeletes</key>
+
+<key>TypedString</key>
+<string>(\r|^)f </string>
+
+<key>Text</key>
+<string>sudo </string>
+
+<string>TypedString</string>
+<key>SimulateDeletes</key>
+
+<key>TypedString</key>
+<string>(\r|^)s </string>
+
+<key>Text</key>
+<string>sudo vi </string>
+
+<string>TypedString</string>
+<key>SimulateDeletes</key>
+
+<key>TypedString</key>
+<string>(\r|^)v </string>
+
+<key>Text</key>
+<string>screen -c hi/src -d -R mohammady</string>
+
+<string>TypedString</string>
+<key>SimulateDeletes</key>
+
+<key>TypedString</key>
+<string>(\r|^)scrn </string>
+
+<key>Text</key>
+<string>openstack </string>
+
+<string>TypedString</string>
+<key>SimulateDeletes</key>
+
+<key>TypedString</key>
+<string>(\r|^)o </string>
+
+<key>Text</key>
+<string>terraform </string>
+
+<string>TypedString</string>
+<key>SimulateDeletes</key>
+
+<key>TypedString</key>
+<string>(\r|^)tf </string>
+
+<key>Text</key>
+<string>ansible </string>
+
+<string>TypedString</string>
+<key>SimulateDeletes</key>
+
+<key>TypedString</key>
+<string>(\r|^)an </string>
+
+<key>Text</key>
+<string>ansible-playbook </string>
+
+<string>TypedString</string>
+<key>SimulateDeletes</key>
+
+<key>TypedString</key>
+<string>(\r|^)ap </string>
+
+<key>Text</key>
+<string>sudo docker </string>
+
+<string>TypedString</string>
+<key>SimulateDeletes</key>
+
+<key>TypedString</key>
+<string>(\r|^)d </string>
+
+<key>Text</key>
+<string>cd ../</string>
+
+<string>TypedString</string>
+<key>SimulateDeletes</key>
+
+<key>TypedString</key>
+<string>(\r|^)\.\. </string>
+
+<key>Text</key>
+<string>ll -ah </string>
+
+<string>TypedString</string>
+<key>SimulateDeletes</key>
+
+<key>TypedString</key>
+<string>(\r|^)ll </string>
+
+<key>Text</key>
+<string>screen -x </string>
+
+<string>TypedString</string>
+<key>SimulateDeletes</key>
+
+<key>TypedString</key>
+<string>(\r|^)scrnx </string>
+
+<key>Text</key>
+<string>oc describe </string>
+
+<string>TypedString</string>
+<key>SimulateDeletes</key>
+
+<key>TypedString</key>
+<string>(\r|^)ocd </string>
+
+<key>Text</key>
+<string>oc edit </string>
+
+<string>TypedString</string>
+<key>SimulateDeletes</key>
+
+<key>TypedString</key>
+<string>(\r|^)oce </string>
+
+<key>Text</key>
+<string>openstack server </string>
+
+<string>TypedString</string>
+<key>SimulateDeletes</key>
+
+<key>TypedString</key>
+<string>(\r|^)os </string>
+
+<key>Text</key>
+<string>openstack volume </string>
+
+<string>TypedString</string>
+<key>SimulateDeletes</key>
+
+<key>TypedString</key>
+<string>(\r|^)ov </string>
+
+<key>Text</key>
+<string>oc get </string>
+
+<string>TypedString</string>
+<key>SimulateDeletes</key>
+
+<key>TypedString</key>
+<string>(\r|^)ocg </string>
+
+<key>Text</key>
+<string>oc get --all-namespaces </string>
+
+<string>TypedString</string>
+<key>SimulateDeletes</key>
+
+<key>TypedString</key>
+<string>(\r|^)ocga </string>
+
+<key>Text</key>
+<string>openstack server list </string>
+
+<string>TypedString</string>
+<key>SimulateDeletes</key>
+
+<key>TypedString</key>
+<string>(\r|^)osl </string>
+
+<key>Text</key>
+<string>openstack volume list </string>
+
+<string>TypedString</string>
+<key>SimulateDeletes</key>
+
+<key>TypedString</key>
+<string>(\r|^)ovl </string>
+
+<key>Text</key>
+<string>git clone --depth 1 </string>
+
+<string>TypedString</string>
+<key>SimulateDeletes</key>
+
+<key>TypedString</key>
+<string>(\r|^)gcl </string>
+
+<key>Text</key>
+<string>oc logs </string>
+
+<string>TypedString</string>
+<key>SimulateDeletes</key>
+
+<key>TypedString</key>
+<string>(\r|^)ocl </string>
+
+<key>Text</key>
+<string>terraform apply </string>
+
+<string>TypedString</string>
+<key>SimulateDeletes</key>
+
+<key>TypedString</key>
+<string>(\r|^)tfa </string>
+
+<key>Text</key>
+<string>source </string>
+
+<string>TypedString</string>
+<key>SimulateDeletes</key>
+
+<key>TypedString</key>
+<string>(\r|^)so </string>
+
+<key>Text</key>
+<string>| awk '{ print $</string>
+
+<string>TypedString</string>
+<key>SimulateDeletes</key>
+
+<key>TypedString</key>
+<string>|aw </string>
+
+<key>Text</key>
+<string>git fetch </string>
+
+<string>TypedString</string>
+<key>SimulateDeletes</key>
+
+<key>TypedString</key>
+<string>(\r|^)gf </string>
+
+<key>Text</key>
+<string>git merge </string>
+
+<string>TypedString</string>
+<key>SimulateDeletes</key>
+
+<key>TypedString</key>
+<string>(\r|^)gm </string>
+
+<key>Text</key>
+<string>openstack server show </string>
+
+<string>TypedString</string>
+<key>SimulateDeletes</key>
+
+<key>TypedString</key>
+<string>(\r|^)oss </string>
+
+<key>Text</key>
+<string>watch -n </string>
+
+<string>TypedString</string>
+<key>SimulateDeletes</key>
+
+<key>TypedString</key>
+<string>(\r|^)w </string>
+
+<key>Text</key>
+<string>sudo docker exec -it </string>
+
+<string>TypedString</string>
+<key>SimulateDeletes</key>
+
+<key>TypedString</key>
+<string>(\r|^)dexec </string>
+
+<key>Text</key>
+<string>openstack network</string>
+
+<string>TypedString</string>
+<key>SimulateDeletes</key>
+
+<key>TypedString</key>
+<string>(\r|^)on </string>
+
+<key>Text</key>
+<string>openstack network list </string>
+
+<string>TypedString</string>
+<key>SimulateDeletes</key>
+
+<key>TypedString</key>
+<string>(\r|^)onl </string>
+
+<key>Text</key>
+<string>sudo systemctl </string>
+
+<string>TypedString</string>
+<key>SimulateDeletes</key>
+
+<key>TypedString</key>
+<string>(\r|^)sy </string>
+
+<key>Text</key>
+<string>terraform apply -target=null_resource.utility_assets </string>
+
+<string>TypedString</string>
+<key>SimulateDeletes</key>
+
+<key>TypedString</key>
+<string>(\r|^)tfnull </string>
+
+<key>Text</key>
+<string>sudo yum install -y </string>
+
+<string>TypedString</string>
+<key>SimulateDeletes</key>
+
+<key>TypedString</key>
+<string>(\r|^)yu </string>
+
+<key>Text</key>
+<string>oc get po -o wide | grep </string>
+
+<string>TypedString</string>
+<key>SimulateDeletes</key>
+
+<key>TypedString</key>
+<string>(\r|^)ocgp </string>
+
+<key>Text</key>
+<string>oc rsh </string>
+
+<string>TypedString</string>
+<key>SimulateDeletes</key>
+
+<key>TypedString</key>
+<string>(\r|^)ocr </string>
+
+<key>Text</key>
+<string>openstack volume show </string>
+
+<string>TypedString</string>
+<key>SimulateDeletes</key>
+
+<key>TypedString</key>
+<string>(\r|^)ovs </string>
+
+<key>Text</key>
+<string>oc project </string>
+
+<string>TypedString</string>
+<key>SimulateDeletes</key>
+
+<key>TypedString</key>
+<string>(\r|^)ocp </string>
+
+<key>Text</key>
+<string>oc project monitoring </string>
+
+<string>TypedString</string>
+<key>SimulateDeletes</key>
+
+<key>TypedString</key>
+<string>(\r|^)ocpm </string>
+
+<key>Text</key>
+<string>oc project abar-internal </string>
+
+<string>TypedString</string>
+<key>SimulateDeletes</key>
+
+<key>TypedString</key>
+<string>(\r|^)ocpa </string>
+
+<key>Text</key>
+<string>oc project default </string>
+
+<string>TypedString</string>
+<key>SimulateDeletes</key>
+
+<key>TypedString</key>
+<string>(\r|^)ocpd </string>
+
+<key>Text</key>
+<string>oc rollout cancel dc/</string>
+
+<string>TypedString</string>
+<key>SimulateDeletes</key>
+
+<key>TypedString</key>
+<string>(\r|^)cancel </string>
+
+<key>Text</key>
+<string>oc scale dc --replicas=</string>
+
+<string>TypedString</string>
+<key>SimulateDeletes</key>
+
+<key>TypedString</key>
+<string>(\r|^)scale </string>
+
+<key>Text</key>
+<string>oc rollout latest dc/</string>
+
+<string>TypedString</string>
+<key>SimulateDeletes</key>
+
+<key>TypedString</key>
+<string>(\r|^)latest </string>
+
+<key>Text</key>
+<string>%TriggerClipboard%</string>

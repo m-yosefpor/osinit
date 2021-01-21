@@ -1,0 +1,98 @@
+mkdir -p
+(\r|^)mk
+grep -r
+(\r|^)g
+| grep
+\|g
+ack
+(\r|^)a
+fzf
+(\r|^)f
+sudo
+(\r|^)s
+sudo vi
+(\r|^)v
+screen -c hi/src -d -R mohammady
+(\r|^)scrn
+openstack
+(\r|^)o
+terraform
+(\r|^)tf
+ansible
+(\r|^)an
+ansible-playbook
+(\r|^)ap
+sudo docker
+(\r|^)d
+cd ..
+(\r|^)\.\.
+ll -ah
+(\r|^)ll
+screen -x
+(\r|^)scrnx
+oc describe
+(\r|^)ocd
+oc edit
+(\r|^)oce
+openstack server
+(\r|^)os
+openstack volume
+(\r|^)ov
+oc get
+(\r|^)ocg
+oc get --all-namespaces
+(\r|^)ocga
+openstack server list
+(\r|^)osl
+openstack volume list
+(\r|^)ovl
+git clone --depth 1
+(\r|^)gcl
+oc logs
+(\r|^)ocl
+terraform apply
+(\r|^)tfa
+source
+(\r|^)so
+| awk '{ print 
+|aw
+git fetch
+(\r|^)gf
+git merge
+(\r|^)gm
+openstack server show
+(\r|^)oss
+watch -n
+(\r|^)w
+sudo docker exec -it
+(\r|^)dexec
+openstack networ
+(\r|^)on
+openstack network list
+(\r|^)onl
+sudo systemctl
+(\r|^)sy
+terraform apply -target=null_resource.utility_assets
+(\r|^)tfnull
+sudo yum install -y
+(\r|^)yu
+oc get po -o wide | grep
+(\r|^)ocgp
+oc rsh
+(\r|^)ocr
+openstack volume show
+(\r|^)ovs
+oc project
+(\r|^)ocp
+oc project monitoring
+(\r|^)ocpm
+oc project abar-internal
+(\r|^)ocpa
+oc project default
+(\r|^)ocpd
+oc rollout cancel dc
+(\r|^)cancel
+oc scale dc --replicas
+(\r|^)scale
+oc rollout latest dc
+(\r|^)latest
