@@ -41,6 +41,7 @@ preference > dock >
 
 perefrences > keyboard > shortcut > check input source ctrl+space
 			keyboard setting "perisian-standard" not "persian"
+                        also add US , and remove US-international
 			> use F keys as default function
 
 ######### phook
