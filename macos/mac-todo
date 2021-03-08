@@ -39,8 +39,9 @@ preference > dock >
 		battery > show percent
 
 
-perefrences keyboard shortcut check input source ctrl+space
-keyboard setting "perisian-standard" not "persian"
+perefrences > keyboard > shortcut > check input source ctrl+space
+			keyboard setting "perisian-standard" not "persian"
+			> use F keys as default function
 
 ######### phook
 wget https://github.com/drinchev/phook/archive/v0.0.7.tar.gz
