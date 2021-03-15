@@ -13,8 +13,8 @@ brew install --cask \
 
 login on all previously installed
 
-brew install iproute2mac openfortivpn wget ack fzf \
-	helm terraform
+brew install iproute2mac openfortivpn wget ack fzf golang\
+	helm terraform operator-sdk
 ######### spectacle
 maximize
 left half
