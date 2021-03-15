@@ -2,18 +2,19 @@
 
 xcode-select --install
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-brew install --cask visual-studio-code
-	skype
-	element
-	google-chrome
-	lastpass?
-        spectacle
-        iterm2
+brew install --cask \
+	visual-studio-code \
+	skype \
+	element \
+	google-chrome \
+        spectacle \
+        iterm2 \
 
 
 login on all previously installed
 
-brew install iproute2mac openfortivpn wget
+brew install iproute2mac openfortivpn wget ack fzf \
+	helm terraform
 ######### spectacle
 maximize
 left half
