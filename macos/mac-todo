@@ -6,7 +6,7 @@ brew install --cask \
 	visual-studio-code \
 	skype \
 	element \
-	google-chrome \
+	firefox \
         spectacle \
         iterm2 \
 
