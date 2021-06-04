@@ -13,7 +13,7 @@ brew install --cask \
 
 login on all previously installed
 
-brew install iproute2mac nmap openfortivpn wget ack fzf golang jq yq htop yarn npm sops gopass\
+brew install iproute2mac nmap openfortivpn wget ack fzf golang jq yq htop yarn npm sops gopass gpg\
 	helm terraform operator-sdk kubebuilder argocd
 ######### spectacle
 maximize
