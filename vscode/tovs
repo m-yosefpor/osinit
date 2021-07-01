@@ -9,4 +9,11 @@ plugins:
 
 
 vimrs for vscode
-trim whitespace
+
+vscode setting: (search)
+- check insert final new line
+- uncheck ignore trim whitespaces
+- check trim trailing whitespaces
+- off: acceptSuggestionOnEnter
+- never: autoClosingQuotes
+
