@@ -4,8 +4,7 @@ xcode-select --install
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 brew install --cask \
 	visual-studio-code \
-	skype \
-	element \
+	skype element telegram slack \
 	firefox \
         spectacle \
         iterm2 \
