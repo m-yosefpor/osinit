@@ -11,10 +11,14 @@ brew install --cask \
 	vlc
 
 
+##### TODO
+# gnu alternatives
+PATH=$(brew --prefix)/opt/findutils/libexec/gnubin:$PATH
+
 login on all previously installed
 
 brew install \
-	iproute2mac coreutils wget \
+	iproute2mac coreutils wget findutils \
 	nmap \
 	htop \
 	jq yq openfortivpn \
