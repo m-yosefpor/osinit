@@ -1,22 +1,19 @@
-# login to app store
 
 xcode-select --install
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 brew install --cask \
 	visual-studio-code \
-	skype element telegram slack \
+	skype element \
 	firefox \
         spectacle \
         iterm2 \
 	vlc
 
+# login on all previously installed
 
 ##### TODO
 # gnu alternatives
 PATH=$(brew --prefix)/opt/findutils/libexec/gnubin:$PATH
-
-login on all previously installed
-
 brew install \
 	iproute2mac coreutils wget findutils \
 	nmap \
@@ -26,7 +23,23 @@ brew install \
 	golang jq yq htop yarn npm \
 	sops gopass gpg git-crypt\
 	helm kustomize terraform operator-sdk kubebuilder argocd krew \
-	kubeval kube-score/tap/kube-score golangci-lint tflint
+	kubeval kube-score golangci-lint tflint
+
+#### (oh-my-zsh)
+RUNZSH=no CHSH=no sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
+git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+#### (fzf)
+git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
+~/.fzf/install --all
+chsh -s $(which zsh)
+
+
+######
+ln -sf ~/hi/zrc ~/.zshrc
+ln -sf ~/hi/gitconfig ~/.gitconfig
+ln -sf ~/data/snapp/cred/config  ~/.ssh/config
+
 ######### spectacle
 maximize
 left half
@@ -62,6 +75,7 @@ wget https://github.com/drinchev/phook/archive/v0.0.7.tar.gz
 tar xvf v0.0.7.tar.gz
 cd phook-0.0.7
 make install
+mv phook ~/bin
 
 ###### change hostname, computername
 sudo scutil --set HostName <new host name>
@@ -76,3 +90,9 @@ sudo reboot
 brew install knock wireguard-tools
 alias vpnw="sudo knock 178.22.121.34 7000 8000 -d 1000 && sudo wg-quick up /Users/my/Mohammad.conf"
 alias kvpnw="sudo wg-quick down /Users/my/Mohammad.conf"
+
+
+#### firefox
+import bookmark
+addons
+view > toolbar > always show bookmark
