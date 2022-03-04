@@ -25,6 +25,9 @@ brew install \
 	helm kustomize terraform operator-sdk kubebuilder argocd krew \
 	kubeval kube-score golangci-lint tflint
 
+brew tap git-chglog/git-chglog
+brew install git-chglog
+
 #### (oh-my-zsh)
 RUNZSH=no CHSH=no sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
