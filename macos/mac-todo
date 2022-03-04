@@ -26,7 +26,7 @@ brew install \
 	kubeval kube-score golangci-lint tflint
 
 brew tap git-chglog/git-chglog
-brew install git-chglog
+brew install git-chglog caarlos0/tap/svu
 
 #### (oh-my-zsh)
 RUNZSH=no CHSH=no sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
