@@ -14,6 +14,8 @@ vscode setting: (search)
 - check insert final new line
 - uncheck ignore trim whitespaces
 - check trim trailing whitespaces
+- check trim final newlines
 - off: acceptSuggestionOnEnter
 - never: autoClosingQuotes
+- autosave: afterdelay, autosave delay 1000
 
