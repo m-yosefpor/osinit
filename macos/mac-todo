@@ -61,6 +61,10 @@ cd fonts
 # change background color for "staging" and "production" profiles for ssh
 #### (iterm2 alt key)
 # use option as meta key #iterm > preferences  >  profile > use option as Esc+
+
+Preference -> Advanced -> Mouse Tab, switch:
+  Scroll wheel sends arrow keys when in alternate screen mode > Yes
+
 ###############################
 preference > dock >
 		hide dock
@@ -99,3 +103,4 @@ alias kvpnw="sudo wg-quick down /Users/my/Mohammad.conf"
 import bookmark
 addons
 view > toolbar > always show bookmark
+
