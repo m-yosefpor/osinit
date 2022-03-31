@@ -62,6 +62,8 @@ cd fonts
 #### (iterm2 alt key)
 # use option as meta key #iterm > preferences  >  profile > use option as Esc+
 
+Preferences > Profiles > Terminal  scrollback buffer:100k
+
 Preference -> Advanced -> Mouse Tab, switch:
   Scroll wheel sends arrow keys when in alternate screen mode > Yes
 

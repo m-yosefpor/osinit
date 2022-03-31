@@ -1,11 +1,24 @@
 plugins:
+	global:
+	  remote ssh
+	  remote ssh: editing
+          peacock
+	
+        file:
+	  go
+	  yaml
+	  markdownlint
+	  hashicorp terraform
+	github copoilot
+	gitlense
+	paste jsone as code
+
 	vim
-	Terraform: Mikael Olenfalk (.tf , .tfvars)
+
 	ansible
 	Docker: Microsoft  (Dockerfile)
 	Kubernetes
 
-	git history
 
 
 vimrs for vscode
