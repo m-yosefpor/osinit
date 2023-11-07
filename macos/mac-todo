@@ -16,7 +16,7 @@ brew install --cask \
 # gnu alternatives
 PATH=$(brew --prefix)/opt/findutils/libexec/gnubin:$PATH
 brew install \
-	iproute2mac coreutils wget findutils rar\
+	iproute2mac coreutils wget findutils rar bind\
 	nmap \
 	htop \
 	jq yq openfortivpn \
