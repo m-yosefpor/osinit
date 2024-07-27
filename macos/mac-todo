@@ -46,10 +46,10 @@ ln -sf ~/hi/zrc ~/.zshrc
 ln -sf ~/hi/gitconfig ~/.gitconfig
 ln -sf ~/data/snapp/cred/config  ~/.ssh/config
 
-######### spectacle
-maximize
-left half
-right half
+######### rectangle
+maximize: window+up
+left half: window left
+right half: window right
 de-maximize
 
 ############################### (iterm2)
@@ -58,12 +58,12 @@ de-maximize
 git clone https://github.com/powerline/fonts.git
 cd fonts
 ./install.sh
-# Open ITerm2 > Preferences > Profiles > Text > Change Font and set it to something that has “for Powerline”. I’m choosing “Meslo LG DZ for Powerline” font.
+# Open ITerm2 > Setting > Profiles > Text > Change Font and set it to something that has “for Powerline”. I’m choosing “Meslo LG DZ for Powerline” font.
 #### (iterm2 schema)
-# Open iTerm2 > Preferences > Profile > Colors > Color Presets > Import. In the import window, navigate to the “Schemes” folder (osinit/color-schema)
+# Open iTerm2 > Setting > Profile > Colors > Color Presets > Import. In the import window, navigate to the “Schemes” folder (osinit/color-schema)
 # change background color for "staging" and "production" profiles for ssh
 #### (iterm2 alt key)
-# use option as meta key #iterm > preferences  >  profile > use option as Esc+
+# use option as meta key #iterm > setting  >  profile > keys > use option as Esc+ (left and right)
 
 Preferences > Profiles > Terminal  scrollback buffer:100k
 
@@ -73,7 +73,6 @@ Preference -> Advanced -> Mouse Tab, switch:
 ###############################
 preference > dock >
 		hide dock
-		hide menu bar
 		battery > show percent
 
 
