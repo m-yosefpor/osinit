@@ -18,15 +18,13 @@ brew install --cask \
 # gnu alternatives
 PATH=$(brew --prefix)/opt/findutils/libexec/gnubin:$PATH
 brew install \
-	iproute2mac coreutils wget findutils rar bind\
-	nmap \
-	htop \
-	jq yq openfortivpn \
-	fd ripgrep git-delta bottom fzf gdu\
-	golang jq yq htop yarn npm \
+	iproute2mac coreutils wget findutils rar bind\ # linux
+	nmap htop jq yq \ # extra linux
+	fd ripgrep git-delta bottom fzf gdu \ # re-linux
+	golang yarn npm \
 	sops gopass gpg git-crypt\
 	helm kustomize terraform operator-sdk kubebuilder argocd krew \
-	kubeval kube-score golangci-lint tflint
+	kubeconform kube-score golangci-lint tflint
 
 brew tap git-chglog/git-chglog
 brew install git-chglog caarlos0/tap/svu
