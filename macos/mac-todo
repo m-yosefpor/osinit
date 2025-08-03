@@ -22,7 +22,7 @@ brew install \
 	nmap \
 	htop \
 	jq yq openfortivpn \
-	the_silver_searcher fzf git-delta \
+	fd ripgrep git-delta bottom fzf gdu\
 	golang jq yq htop yarn npm \
 	sops gopass gpg git-crypt\
 	helm kustomize terraform operator-sdk kubebuilder argocd krew \
