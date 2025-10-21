@@ -21,7 +21,7 @@ brew install \
 	iproute2mac coreutils wget findutils rar bind\ # linux
 	nmap htop jq yq \ # extra linux
 	fd ripgrep git-delta bottom fzf gdu \ # re-linux
-	golang nvm yarn npm kotlin\ # langs
+	golang nvm kotlin\ # langs
 	sops gopass gpg git-crypt\ # secret
 	helm helmfile kustomize operator-sdk kubebuilder argocd krew kyverno\ #devops
         gh terraform vault \
