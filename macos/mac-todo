@@ -23,9 +23,9 @@ brew install \
 	fd ripgrep git-delta bottom fzf gdu \ # re-linux
 	golang nvm kotlin\ # langs
 	sops gopass gpg git-crypt\ # secret
-	helm helmfile kustomize operator-sdk kubebuilder argocd krew kyverno\ #devops
+	kubectl kubectx krew helm helmfile kustomize operator-sdk kubebuilder argocd kyverno\ #k8s
         gh terraform vault \
-	kubeconform kube-score golangci-lint tflint # lint
+	kubeconform kube-score golangci-lint tflint yamllint # lint
 
 brew tap git-chglog/git-chglog
 brew install git-chglog caarlos0/tap/svu
