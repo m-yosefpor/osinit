@@ -3,15 +3,13 @@
 xcode-select --install
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 brew install --cask \
-	visual-studio-code \
+	visual-studio-code \ # antigravity
 	clipy \
 	google-chrome \
         rectangle \
         ghostty \ #iterm2 \
         stats \
 	vlc
-
-# login on all previously installed
 
 ##### TODO
 # gnu alternatives
@@ -31,20 +29,18 @@ brew install \
 # install sdkman java
 curl -s "https://get.sdkman.io" | bash
 
-
-#### (oh-my-zsh)
-RUNZSH=no CHSH=no sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
-git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
-#### (fzf)
+#### (fzf) ??
 git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
 ~/.fzf/install --all
 chsh -s $(which zsh)
 
 
 ######
-ln -sf ~/hi/zrc ~/.zshrc
+ln -sf ~/hi/zshrc ~/.zshrc
+ln -s ~/hi/zsh_plugins.txt ~/.zsh_plugins.txt
+ln -s ~/hi/starship.toml ~/.config/starship.toml
 ln -sf ~/hi/gitconfig ~/.gitconfig
+
 ln -sf ~/data/snapp/cred/config  ~/.ssh/config
 
 ######### rectangle
@@ -52,24 +48,6 @@ maximize: window+up
 left half: window left
 right half: window right
 de-maximize
-
-############################### (iterm2)
-#### (iterm2)
-#### (powerline fonts)
-git clone https://github.com/powerline/fonts.git
-cd fonts
-./install.sh
-# Open ITerm2 > Setting > Profiles > Text > Change Font and set it to something that has “for Powerline”. I’m choosing “Meslo LG DZ for Powerline” font.
-#### (iterm2 schema)
-# Open iTerm2 > Setting > Profile > Colors > Color Presets > Import. In the import window, navigate to the “Schemes” folder (osinit/color-schema)
-# change background color for "staging" and "production" profiles for ssh
-#### (iterm2 alt key)
-# use option as meta key #iterm > setting  >  profile > keys > use option as Esc+ (left and right)
-
-Preferences > Profiles > Terminal  scrollback buffer:100k
-
-Preference -> Advanced -> Mouse Tab, switch:
-  Scroll wheel sends arrow keys when in alternate screen mode > Yes
 
 ###############################
 preference > dock >
@@ -82,30 +60,9 @@ perefrences > keyboard > shortcut > check input source ctrl+space
                         also add US , and remove US-international
 			> use F keys as default function
 
-######### phook
-wget https://github.com/drinchev/phook/archive/v0.0.8.tar.gz
-tar xvf v0.0.8.tar.gz
-cd phook-0.0.8
-make install
-mv phook ~/bin
-
 ###### change hostname, computername
 sudo scutil --set HostName <new host name>
 sudo scutil --set LocalHostName <new host name>
 sudo scutil --set ComputerName <new name>
 dscacheutil -flushcache
 sudo reboot
-
-
-
-##### wireguard
-brew install knock wireguard-tools
-alias vpnw="sudo knock 178.22.121.34 7000 8000 -d 1000 && sudo wg-quick up /Users/my/Mohammad.conf"
-alias kvpnw="sudo wg-quick down /Users/my/Mohammad.conf"
-
-
-#### firefox
-import bookmark
-addons
-view > toolbar > always show bookmark
-
