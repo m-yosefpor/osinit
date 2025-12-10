@@ -7,7 +7,7 @@ brew install --cask \
 	clipy \
 	google-chrome \
         rectangle \
-        iterm2 \
+        ghostty \ #iterm2 \
         stats \
 	vlc
 
@@ -17,6 +17,7 @@ brew install --cask \
 # gnu alternatives
 PATH=$(brew --prefix)/opt/findutils/libexec/gnubin:$PATH
 brew install \
+        starship antidote \
 	iproute2mac coreutils wget findutils rar bind\ # linux
 	nmap htop jq yq \ # extra linux
 	fd ripgrep git-delta bottom fzf gdu \ # re-linux
