@@ -16,7 +16,7 @@ brew install --cask \
 PATH=$(brew --prefix)/opt/findutils/libexec/gnubin:$PATH
 brew install \
         starship antidote \
-	iproute2mac coreutils wget findutils rar bind\ # linux
+	iproute2mac uutils-coreutils wget findutils rar bind\ # linux
 	nmap htop jq yq \ # extra linux
 	fd ripgrep git-delta bottom fzf gdu \ # re-linux
 	golang nvm kotlin\ # langs
